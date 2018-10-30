@@ -1,13 +1,19 @@
-var table = 3;             // Unit of table
-var operator = 'addition'; // Type of calculation
-var i = 1;                 // Set counter to 1
-var msg = '';              // Message
+//ask user for value value
+var num = prompt ("Please enter a value from 0 to 10", ""); //prompt user to enter the number
 
-if (operator === 'addition') {
+
+var table= num; // Unit of table
+
+var operator = 'MULTIPLICATION'; // Type of calculation
+var i = 1;                 // Set counter to 1
+var msg = '<h2>Multiplication Table</h2>';              // Message
+
+if (operator === 'Addition') {
+ 
   // Do addition
   while (i < 11) {
     msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
-    i++;
+    i++; 
   }
 } else {
   // Do multiplication
