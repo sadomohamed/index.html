@@ -1,0 +1,107 @@
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+    <meta name="description" content="lOGO">
+    <meta name="keywords" content="Flower">
+    <meta name="author" content="Sado Farah">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Liquid Layout </title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/18th-century" type="text/css"/>
+  
+<style id="jsbin-css">
+h1 { 
+  font-family: '18thCenturyInitialsRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #0a0a09;
+  text-align: center;
+}
+
+body { width:90%;
+       margin: 0 auto;
+
+}
+body {
+  background-image: url(https://wallpaper-gallery.net/images/jewellery-background-wallpaper/jewellery-background-wallpaper-20.jpg)}
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+#content {
+  overflow: auto;}
+#nav, #feature, #footer {
+  margin: 1%;}
+.column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%}
+.column3 {
+  margin-right: 0%;}
+li {
+  display: inline;
+  padding: 0.5em;}
+#nav, #footer {
+  background-color: #723030;
+  padding: 0.5em 0;}
+
+#feature, .article {
+  
+height: 10em;
+  margin-bottom: 1em;
+  background-color: #ae9494
+  }
+
+#feature {
+  background-color: #8CC63E;
+  background-image: url("https://cdn.pixabay.com/photo/2017/12/20/18/42/rose-3030462_1280.jpg");
+  background-size:auto;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+
+
+    
+</style>
+</head>
+<body>
+  <div id="header">
+    <h1>Final Project </h1>
+    <hr>
+    <h2> Portfolio </h2>
+    <div id="nav">
+      <ul>
+        <li><a href="" >Home</a> </li>
+        <li><a href="">About</a></li>
+        <li><a href="">Coursework</a></li>
+        <li><a href="">Artifacts</a></li>
+        <li><a href="">Module Assignments</a></li>
+        <li><a href="">Contact me</a></li>
+        <li><a href="">Creative page</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="content">
+    <div id="feature">
+      <p>Feature</p>
+    </div>
+    <div class="article column1">
+      <p>Column One</p>
+    </div>
+    <div class="article column2">
+      <p>Column Two</p>
+    </div>
+    <div class="article column3">
+      <p>Column Three</p>
+    </div>
+  </div>
+  <div id="footer">
+    <p>&copy; Copyright 2011</p>
+  </div>
